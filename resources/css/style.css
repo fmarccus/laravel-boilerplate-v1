@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+}
+p {
+    font-size: 150px;
+}
+.fa-solid,
+.fa-regular,
+.bi {
+    font-size: 120px;
+    color: #414b62;
+}

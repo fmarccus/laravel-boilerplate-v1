@@ -1,0 +1,44 @@
+//icon packs
+@import "@fortawesome/fontawesome-free/css/fontawesome.min.css";
+@import "@fortawesome/fontawesome-free/css/solid.min.css";
+@import "@fortawesome/fontawesome-free/css/regular.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+//styled alert/popups
+@import '@sweetalert2/themes/bootstrap-4/bootstrap-4.scss';
+
+//bootstrap variables
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+//datatable
+@import "datatables.net-bs5/css/dataTables.bootstrap5.css";
+
+
+
+
+
+
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark
+);
+
+// color map
+$custom-colors: (
+    "custom-color": $red-500
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+
+@import "~bootstrap/scss/bootstrap";
